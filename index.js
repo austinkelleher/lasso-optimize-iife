@@ -2,13 +2,14 @@
 
 const optimize = require('optimize-js');
 
-module.exports = {
-  id: __filename,
-  contentType: 'js',
-  stream: false,
+module.exports = function(lasso, pluginConfig) {
+  lasso.addTransform({
+    contentType: 'js',
+    name: module.id,
+    stream: false,
 
-  createTransform(transformConfig) {
-    let optimizeOptions = transformConfig.optimize;
-    return (code, lassoContext) => optimize(code, optimizeOptions);
-  }
+    transform(code, lassoContext) {
+      return optimize(code, pluginConfig);
+    }
+  });
 };

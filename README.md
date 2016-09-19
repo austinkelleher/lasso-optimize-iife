@@ -1,4 +1,4 @@
-lasso-optimize-js-transform
+lasso-optimize-iife
 ===========
 
 [Lasso.js](https://github.com/lasso-js/lasso) transform for
@@ -6,22 +6,20 @@ lasso-optimize-js-transform
 
 ## Installation
 ```bash
-npm install lasso-optimize-js-transform --save
+npm install lasso-optimize-iife --save
 ```
 
 ## Usage
 
 ```js
-const lassoOptimizeTransform = require('lasso-optimize-js-transform');
+const lassoOptimizeIife = require('lasso-optimize-iife');
 
-const myLasso = lasso.create({
-  ...
-  require: {
-    transforms: [
-      lassoOptimizeTransform
+require('lasso').configure({
+    ...
+    plugins: [
+        lassoOptimizeIife,
+        ...
     ]
-  },
-  ...
 });
 
 ```
