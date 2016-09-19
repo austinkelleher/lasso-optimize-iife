@@ -1,6 +1,6 @@
 {
   "name": "lasso-optimize-iife",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lasso.js optimize iife transform",
   "main": "index.js",
   "repository": {
@@ -15,9 +15,9 @@
   "author": "Austin Kelleher, a@alk.im",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/austinkelleher/lasso-optimize-js-transform/issues"
+    "url": "https://github.com/austinkelleher/lasso-optimize-iife/issues"
   },
-  "homepage": "https://github.com/austinkelleher/lasso-optimize-js-transform#readme",
+  "homepage": "https://github.com/austinkelleher/lasso-optimize-iife#readme",
   "dependencies": {
     "optimize-js": "^1.0.0"
   }
