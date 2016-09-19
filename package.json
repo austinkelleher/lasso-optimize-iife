@@ -1,0 +1,24 @@
+{
+  "name": "lasso-optimize-js-transform",
+  "version": "1.0.0",
+  "description": "Lasso.js optimize-js transform",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinkelleher/lasso-optimize-js-transform.git"
+  },
+  "keywords": [
+    "lasso",
+    "optimize",
+    "transform"
+  ],
+  "author": "Austin Kelleher, a@alk.im",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austinkelleher/lasso-optimize-js-transform/issues"
+  },
+  "homepage": "https://github.com/austinkelleher/lasso-optimize-js-transform#readme",
+  "dependencies": {
+    "optimize-js": "^1.0.0"
+  }
+}
