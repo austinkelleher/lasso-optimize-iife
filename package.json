@@ -1,6 +1,6 @@
 {
   "name": "lasso-optimize-iife",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lasso.js optimize iife transform",
   "main": "index.js",
   "repository": {
